@@ -1,0 +1,123 @@
+/* style.css */
+
+html,body,h1,h2,h3,p,img,ul,li,nav,div{
+    padding:0;
+    margin:0;
+    list-style:none;
+    /*border:1px solid #000;*/
+}
+
+/* Global styles */
+body{
+    /*background:rgb(50,50,50);*/
+    color:#fff;
+    font-family:"Roboto", sans-serif;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+/* Size and positioning */
+/*header*/
+.header{
+    /*background:rgb(250,50,50);*/
+    width:1170px;
+    margin:0 auto;
+    position:relative;
+}
+/*ControlLine*/
+.ControlLine{
+    /*background:rgb(50,250,50);*/
+    height: 50px;
+    width:1170px;
+    margin:0 auto;
+    position:relative;
+}
+.ControlLine .btnC {
+    width: 70px;
+    float: left;
+    margin: -2px 20px 0px 0px;
+}
+.ControlLine .SearchForm {
+    width: 260px;
+    float: right;
+    margin-top: -2px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.ControlLine .btnSearch {
+    width: 60px;
+    height: 34px;
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+/*Index*/
+.Index {
+    /*background:rgb(50,50,250);*/
+    width: 1170px;
+    height:615px;
+    margin: 0 auto;
+    position:relative;
+}
+.Index .MenuBG {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    height: 100%;
+    width: 320px;
+    margin: 10px 0px 0px 0px;
+    float:left;
+}
+.Index .MenuBG .btnG {
+    width: 90px;
+    float: left;
+    margin: 10px 0px 0px 25px;
+}
+.Index .btn {
+    width: 90px;
+    float: left;
+    margin: 10px 0px 0px 0px;
+}
+.Index .dropdown {
+    float: left;
+    margin: 10px 0px 0px 0px;
+}
+.Index .dropdown .btnD {
+    width: 270px;
+    float: left;
+    margin: 10px 0px 0px 25px;
+}
+.Index .dropdown .dropdown-menu {
+    width: 270px;
+    float: left;
+    margin: 10px 0px 0px 25px;
+    text-align: center;
+}
+.Index .canvas {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 100%;
+    width: 830px;
+    float: right;
+    margin: 10px 0px 0px 0px;
+}
+.Index .canvas .project {
+    width: 270px;
+    float: left;
+    margin: 10px 0px 0px 15px;
+}
+
+
+/* nav */
+.nav-barTop{
+    border-top:1px solid #ccc;
+    height:0px;
+    margin:10px 0;
+}
+.nav-barBottom{
+    border-bottom:1px solid #ccc;
+    height:40px;
+    margin:10px 0;
+}
+

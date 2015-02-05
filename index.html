@@ -1,21 +1,75 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Assignment 1</title>
-		<meta charset="UTF-8">
-		<!--Bootstrap CSS-->
-		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-		<!--TODO: create and include your own CSS -->
-	</head>
-	<body>
-		<div class="header">
-			<h1>Assignment 1: Data Dashboard Mockup</h1>
+<head>
+	<title>Assignment 1</title>
+	<meta charset="UTF-8">
+	<!--Bootstrap CSS-->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+	<!--TODO: create and include your own CSS -->
+	<link href="style.css" rel="stylesheet" />
+</head>
+<body background="pic/bg.jpg">
+<div class="header">
+	<h1>Assignment 1: Data Dashboard Mockup</h1>
+</div>
+<div class="ControlLine">
+	<!-- TODO: add bootstrap UI widgets here -->
+	<!-- button !-->
+	<nav role="navigation" class="nav-barTop">
+		<ul>
+		</ul>
+	</nav>
+	<a class="btnC btn btn-default" href="#" role="button" style="background: #e0bb28" style="color: #226eb5" onclick="window.location.href = 'index.html'">HOME</a>
+	<button class="btnC btn btn-default" type="button" onclick="window.location.href = 'http://www.nytimes.com/interactive/2012/11/11/sunday-review/counties-moving.html?_r=0'">Model1</button>
+	<button class="btnC btn btn-default" type="button" onclick="window.location.href = 'http://www.theguardian.com/world/interactive/2013/feb/12/state-of-the-union-reading-level'">Model2</button>
+	<button class="btnC btn btn-default" type="button" onclick="window.location.href = 'http://siqizhu.net/'">More...</button>
+	<div class="SearchForm">
+		<form class="form-inline">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search...">
+			</div>
+			<button class="btnSearch btn btn-primary" type="submit">GO</button>
+		</form>
+	</div>
+	<nav role="navigation" class="nav-barBottom">
+		<ul>
+		</ul>
+	</nav>
+	<!--<input class="btn btn-default" type="button" value="Input">
+    <input class="btn btn-default" type="submit" value="Submit">!-->
+	<!-- form !-->
+</div>
+<!-- dropdpwn !-->
+<div class="Index">
+	<div class="MenuBG">
+		<div class="btn-group" role="group" aria-label="...">
+			<button type="button" class="btnG btn btn-success" onclick="window.location.href = 'http://bl.ocks.org/mbostock/1353700'">Ordinary</button>
+			<button type="button" class="btn btn-warning" onclick="window.location.href = 'http://bl.ocks.org/mbostock/3231298'">Medium</button>
+			<button type="button" class="btn btn-danger" onclick="window.location.href = 'http://bl.ocks.org/mbostock/4060606'">Profession</button>
 		</div>
-		<div class="controls">
-			<!-- TODO: add bootstrap UI widgets here -->
+		<div class="dropdown">
+			<button class="btnD btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">Structure Selections<span class="caret"></span>	</button>
+			<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Hierarchical</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Relational</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Temporal</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spatio-temporal</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Spatial</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Textual</a></li>
+				<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Others</a></li>
+			</ul>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+			<script src="bootstrap/js/bootstrap.min.js"></script>
 		</div>
-		<div class="canvas">
-			<!-- TODO: leave this empty for now, but apply a background color -->
+	</div>
+	<div class="canvas">
+		<!-- TODO: leave this empty for now, but apply a background color -->
+		<div class="project">
+			<h2>Front Row to Fashion Week</h2>
+			<img src="pic/pic01.jpg" style="width:800px;height:506px;" alt="placeholder" onclick="window.location.href = 'http://www.nytimes.com/newsgraphics/2013/09/13/fashion-week-editors-picks/'"/>
+			<li><a href="http://www.nytimes.com/fashion/runway/calvin-klein/spring-2014-rtw/1">Some description</a></li>
 		</div>
-	</body>
+	</div>
+</div>
+</body>
 </html>
